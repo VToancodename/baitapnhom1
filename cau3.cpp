@@ -115,8 +115,8 @@ void timTheoTen(struct SinhVien* ds, int slsv) {
 void hienThiTenCot() {
 	printf("-----------------------------------------------------"
 	"----------------------------------------------------------------\n");
-	printf("%-5s %-5s %-5s %-5s %-5s %-15s %-15s %-15s %-15s %-5s %-10s\n", 
-		"ID", "Ho", "Dem", "Ten", "Tuoi", "Gioi Tinh", 
+	printf("%-5s %-5s %-5s %-5s %-5s %-15s %-15s %-15s %-15s %-10s %-10s\n", 
+		"ID", "Ho", "Ten Dem", "Ten", "Ngay Thang Nam sinh", "Gioi Tinh", 
 		"Diem qua trinh", "Diem thuc hanh", "Diem li thuyet", "Diem cong", "Diem tong ket");
 }
 
